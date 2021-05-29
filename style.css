@@ -2,6 +2,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 40%;
+    height: auto;
 }
 
 #searchbar {
@@ -16,20 +18,42 @@
 
 .navbar {
  display: flex;
- justify-content: flex-end;
  align-items: center;
+ flex-direction: space-between;
+ 
+ width: 100%;
+ left: 0px;
+ top: 0px;
+
 }
 
-.navlinks {
-    display:flex;
-   
+.navbar li {
+    display:inline-block
 }
+
+.navbar-left {
+    
+    text-align: left;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.navbar-right {
+    
+    
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 10px;
+
+}
+
+
 
 .nav-item {
-    display: inline-block;
+    
     list-style-type: none;
     font-family: sans-serif;
-    margin-right: 1em;
+    margin-right: 10px;
 }
 
 .nav-item a {
@@ -38,7 +62,6 @@
     font-size: 14px;
 }
 
-ul {
-    text-decoration: none;
-    color: black;
+.nav-item:hover {
+    text-decoration:underline;
 }
