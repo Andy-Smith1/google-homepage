@@ -4,23 +4,70 @@
     margin-right: auto;
     max-width: 40%;
     height: auto;
+    margin-top: 150px;
+}
+
+span {
+    font-family: material icons;
+    font-size: 24px;
 }
 
 #searchbar {
     display: flex;
     justify-content: center;
+    outline: none;
+    align-items: center;
 }
+
+#search {
+    
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 20px;
+    width: 60%;
+    max-width: 584px;
+    height: 2.5em;
+    outline: none;
+}
+
+#search:hover {
+    box-shadow: 0 3px 5px rgb(211, 206, 206);
+}
+
+
 
 #buttons {
     display: flex;
     justify-content: center;
+    gap: 10px;
+    border: none;
+    padding: 10px;
+}
+
+#googlesearch {
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#lucky {
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#googlesearch:hover {
+    border:1px solid rgb(211, 206, 206);
+}
+
+#lucky:hover {
+    border:1px solid rgb(211, 206, 206);  
 }
 
 .navbar {
  display: flex;
  align-items: center;
- flex-direction: space-between;
- 
+ flex-direction: flex-start;
+position: fixed;
  width: 100%;
  left: 0px;
  top: 0px;
@@ -35,7 +82,7 @@
     
     text-align: left;
     flex-grow: 1;
-    margin-left: 10px;
+    
 }
 
 .navbar-right {
@@ -43,7 +90,7 @@
     
     flex-grow: 1;
     text-align: right;
-    margin-right: 10px;
+    margin-right: 25px;
 
 }
 
@@ -60,6 +107,7 @@
     text-decoration: none;
     color: black;
     font-size: 14px;
+    
 }
 
 .nav-item:hover {

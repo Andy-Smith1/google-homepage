@@ -3,6 +3,8 @@
     <head>
         <title>Google</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     </head>
 
 <header>
@@ -27,19 +29,37 @@
 </header>
 
 <body>
-    <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+
+<main>
+
+  
+    <img id="logo" alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
     
     <br>
 
+<div id="search-container">
 
-   <div id="searchbar"><input id="search" type="text"></div>
-    <br>
+    <div id="searchbar">
+
+    <span id="magnify" class="material-icons-outlined">
+        search
+        </span>
+ <input id="search" type="text" autofocus title="Search">
+    <span id="mic" class="material-icons-outlined">
+        mic_none
+        </span>
+    </div>
 
 <div id="buttons">
-    <button id="search">Google Search</button>
-    <button id="search">I'm Feeling Lucky</button>
+    <button id="googlesearch">Google Search</button>
+    <button id="lucky">I'm Feeling Lucky</button>
 </div>
 
+</div>
+
+
+
+</main>
 
 
 </body>
