@@ -13,3 +13,32 @@
     display: flex;
     justify-content: center;
 }
+
+.navbar {
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.navlinks {
+    display:flex;
+   
+}
+
+.nav-item {
+    display: inline-block;
+    list-style-type: none;
+    font-family: sans-serif;
+    margin-right: 1em;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+ul {
+    text-decoration: none;
+    color: black;
+}
