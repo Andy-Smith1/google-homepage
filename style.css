@@ -80,6 +80,8 @@ span {
     border-radius: 5px;
 }
 
+
+
 #googlesearch:hover {
     border:1px solid rgb(211, 206, 206);
 }
@@ -87,6 +89,7 @@ span {
 #lucky:hover {
     border:1px solid rgb(211, 206, 206);  
 }
+
 
 .navbar {
  display: flex;
@@ -171,23 +174,27 @@ span {
 #footer-container {
     position: fixed;
     bottom: 0%;
-    background-color:rgb(226, 222, 222);
+    background-color:rgb(238, 237, 237);
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0px;
-    
 }
 
 .footer-left {
     display: flex;
+    color: rgb(165, 161, 161);
 }
 
 .footer-right {
     display: flex;
+    
 }
 
 #footer-container li {
     padding-right: 10px;
-    color: rgb(165, 161, 161);
+}
+
+#footer-container a {
+    color:rgb(117, 116, 116)
 }
